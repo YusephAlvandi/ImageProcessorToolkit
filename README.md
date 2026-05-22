@@ -1,73 +1,55 @@
 ImageProcessor Toolkit
 
-A modular all-in-one desktop suite for batch image processing.
+A modular all-in-one desktop tool for batch image processing. Includes Watermark, Resizer, and Optimizer tools in a single launcher.
 
-Built with Python and CustomTkinter.
-
-
-WHAT THIS TOOLKIT DOES
-
-This toolkit combines three essential image processing tools into one clean interface:
-
-1. Watermark — Add text watermarks to multiple images at once
-2. Resizer — Resize images to target dimensions in bulk
-3. Optimizer — Compress images with smart quality control and size reporting
+Built with Python, CustomTkinter, and Pillow. Works offline.
 
 
-WHY THIS IS BETTER THAN SINGLE-FILE SCRIPTS
+WHAT IT DOES
 
-Most freelancers deliver one long script that does everything in one file. This toolkit uses a professional modular design. Here is why that matters:
+This toolkit launches three professional image processing tools all in one clean user-friendly interface:
 
-1. Each tool lives in its own file. If you need to fix a bug in the Watermark tool, you only touch watermark.py. The other tools stay safe and untouched.
+- Watermark; add text watermarks to a single image or all images in a folder at once (batch)
+- Resizer; resize images to desired dimensions simultaneously
+- Optimizer; Compress images with smart quality control
 
-2. You can reuse any module in other projects. Need just the Optimizer for another client? Import optimizer.py and it works independently.
-
-3. You can deliver individual tools to different clients. You do not have to expose your entire codebase to every client.
-
-4. Adding a new tool in the future is easy. Just create a new .py file and add one button to main.py. Everything else stays the same.
-
-5. This structure shows employers that you understand software architecture, not just scripting.
+Each tool operates in its own window and works independently. You can use them together or separately.
 
 
-PROJECT STRUCTURE
+WHY MODULAR ARCHITECTURE?
 
-ImageProcessorToolkit/
-    main.py           (Main launcher with tool selection menu)
-    watermark.py      (Watermark module - standalone capable)
-    resizer.py        (Resize module - standalone capable)
-    optimizer.py      (Compression module - standalone capable)
-    README.md         (This file)
+Unlike single-file software, this toolkit uses a modular architecture:
+
+- Each tool exists in its own file. Edit one with no concern about risking the others
+- It is possible to include modules in other Python programmes
+- Deliver each tools to different clients without revealing the full code
+- Add new tools easily by creating a new .py file and manipulating main.py
+
+This is not only a collection of disposable scripts, but also a structured, maintainable, and marketable software product built based on modular architecture.
+
+
+COMPETITIVE ADVANTAGE
+
+- Modular architecture; scalable and maintainable
+- Clean and user-friendly desktop GUI; no command line needed
+- Appropriate for total offline operation
+- No privacy worry; your images stay on your local storage
+- Built by a physicist with a focus on clean, structured code
 
 
 HOW TO RUN
 
-1. Install the required libraries:
-
 pip install customtkinter pillow
-
-2. Launch the toolkit:
-
 python main.py
-
-3. Select the tool you need from the main menu.
-
-
-TECH STACK
-
-Python 3.x — Core programming language
-CustomTkinter — Modern desktop UI
-Pillow (PIL) — Image processing engine
-Modular OOP Architecture — Clean separation of concerns
 
 
 AUTHOR
 
 Yuseph Alvandi
-PhD in Atomic and Molecular Physics (Optics and Laser)
+PhD in Optics and Laser Physics
 Python Developer and Image Processing Specialist
 
 GitHub: https://github.com/YusephAlvandi
-Cryptotask: Available on Cryptotask
 
 
 LICENSE
