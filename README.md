@@ -1,4 +1,4 @@
-ImageProcessor Toolkit
+ImageProcessor 
 
 A modular all-in-one desktop tool for batch image processing. Includes Watermark, Resizer, and Optimizer tools in a single launcher.
 
